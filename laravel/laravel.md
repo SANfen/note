@@ -1,5 +1,5 @@
 * [1.laravel资料笔记](#1)
-    * [1.1 laravel跨库查询方式](#1.1)
+    * [1.1 laravel跨库查询方式](#1.1)
 <h1 id="1">laravel资料笔记</h1>
 <h2 id="1.1">laravel常用跨库查询方式</h2>
 
