@@ -1,10 +1,9 @@
 * [1.laravel资料笔记](#1)
-    * [1.1 laravel 常用包](#1.1)
-    * [1.2 laravel跨库查询方式](#1.2)
-    
+    * [1.1 laravel跨库查询方式](#1.1)
 <h1 id="1">laravel资料笔记</h1>
-<h2 id="1.1">laravel常用命令包</h2>
-### laravel跨库查询
+<h2 id="1.1">laravel常用跨库查询方式</h2>
+
+### 1.1 laravel跨库查询
 ##### atabase.php 里设计如下
         'mysql' => [
         'driver'    => 'mysql',
@@ -36,4 +35,3 @@
 #### DB 操作
      $results = DB::connection('mysql')->select('...');
      $results = DB::connection('mysql_center')->select('...');
-<h2 id="1.2">laravel常用跨库查询方式</h2>
