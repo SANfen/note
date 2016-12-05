@@ -33,7 +33,8 @@
     
     mysql -u root
     mysql> use mysql;
-    mysql> update user set host = ‘%’ where user = ‘root’;
+    mysql> update user set host = ‘%’ where user = ‘root’;
     mysql> select host, user from user;
     mysql> flush privileges;
-    /*如果需要关闭远程连接把%换成localhost就行*/
+    
+* 如果需要关闭远程连接把%换成localhost就行
